@@ -1,33 +1,14 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#211910">
-<title>KCG — The Golden Hour Workshop</title>
-<meta name="description" content="Step into Kerem Can's cozy pixel workshop. Explore tools for print, AI, creative work, and a little play.">
-<link rel="icon" href="assets/crown-favicon.png"><link rel="stylesheet" href="style.css?v=layered2">
-</head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#17140f"><title>KCG — A Little World of Things I've Made</title><meta name="description" content="Kerem Can's golden-hour workshop. An interactive collection of print tools, AI experiments, and things made for the fun of it."><link rel="icon" href="assets/crown-favicon.png"><link rel="stylesheet" href="style.css?v=director3"></head>
 <body>
 <main id="world">
-<div class="room" id="room"><img class="environment" src="assets/studio-v2.webp" alt="A detailed voxel studio overlooking the Bosphorus at sunset, with amber-lit shelves, plants, and a wide wooden desk." fetchpriority="high"><div class="sunlight"></div><div id="dust" aria-hidden="true"></div></div>
-<div class="cast" aria-label="Your workshop companions">
-  <button class="maker-layer" id="maker" aria-label="Say hello to Kerem"><img src="assets/maker-v2.webp" alt="Kerem, a golden-haired voxel maker relaxing in his chair with a crown mug"><span class="maker-steam" aria-hidden="true"><i></i><i></i><i></i></span></button>
-  <button class="cat-layer" id="cat" aria-label="Pet the sleeping ginger cat"><img src="assets/cat-v2.webp" alt="A sleepy orange and cream voxel cat curled up on the desk"><span class="sleep-bubbles" aria-hidden="true"><i>z</i><i>z</i><i>Z</i></span><span class="pet-hearts" aria-hidden="true">♡</span></button>
-</div>
-<div class="vignette"></div>
-<header><a class="brand" href="#" aria-label="KCG Workshop home"><img class="crown-logo" src="assets/crown-v2.webp" alt=""><span>KCG<span class="brand-sub">THE WORKSHOP</span></span></a><div class="header-right"><span class="local-time">GOLDEN HOUR · ISTANBUL</span><button id="motion" class="icon-button" aria-label="Pause ambient motion" aria-pressed="false">Ⅱ</button><button id="light" class="icon-button" aria-label="Switch to evening light" aria-pressed="false">☀ <span>Sunset</span></button><a href="https://github.com/kcgdz" target="_blank" rel="noopener" class="github">GitHub ↗</a></div></header>
-<section class="intro"><div class="eyebrow"><span></span> A SMALL CORNER OF MY WORLD</div><h1>Ideas live here.<br><em>Make yourself at home.</em></h1><p>I'm Kerem. I make things for print, AI,<br>and the occasional “what if?”</p></section>
-<nav class="hotspots" aria-label="Explore the workshop">
-<button class="spot" style="--x:79%;--y:63%" data-project="0"><span class="marker">✦</span><span class="spot-label">On the screen<small>ReliefDrop · 3D tools</small></span></button>
-<button class="spot" style="--x:83%;--y:38%" data-project="1"><span class="marker">☼</span><span class="spot-label">Set the mood<small>LumiControl · Windows</small></span></button>
-<button class="spot" style="--x:15%;--y:55%" data-project="2"><span class="marker">▤</span><span class="spot-label">The print shelf<small>Print & color tools</small></span></button>
-<button class="spot" style="--x:62%;--y:79%" data-project="4"><span class="marker">▧</span><span class="spot-label">Today's reading<small>Byte · AI news</small></span></button>
-<button class="spot" style="--x:90%;--y:88%" data-project="5"><span class="marker">✜</span><span class="spot-label">One more round<small>Taykut Arcade</small></span></button>
-
-</nav>
-<footer class="hud"><div class="hint"><span class="key">✦</span><span>A few ideas. Two good companions.<small>Explore the room. Pet the cat. Stay a while.</small></span></div><button id="open-projects" class="primary">Open the project drawer <span>6</span> ↗</button><a href="https://keremcan.org" target="_blank" rel="noopener" class="contact">Say hello ↗</a></footer>
+<div class="environment" aria-hidden="true"><img src="assets/studio-v2.webp" alt="" fetchpriority="high"><div class="sun-wash"></div><div id="dust"></div></div><div class="shade" aria-hidden="true"></div>
+<header><a href="./" class="brand" aria-label="KCG Workshop home"><img src="assets/crown-v2.webp" alt=""><span>KCG<span class="brand-caption">THE WORKSHOP</span></span></a><span class="edition">PERSONAL WORLDS / VOL. 001</span><nav aria-label="Scene controls"><button id="light" aria-label="Switch to evening light" aria-pressed="false"><span class="status-dot"></span><span id="light-label">Golden hour</span></button><button id="motion" aria-label="Pause ambient motion" aria-pressed="false">Ⅱ</button><a href="https://github.com/kcgdz" target="_blank" rel="noopener">GitHub ↗</a></nav></header>
+<section class="introduction"><div class="eyebrow"><span>INDEPENDENT MAKER</span><span class="line"></span> ISTANBUL, TR</div><h1>A little world<br>of things<br><em>I've made.</em></h1><p>I'm Kerem. Somewhere between print,<br>code, and a very good cup of coffee.</p><button class="explore" id="explore">Explore the collection <span>↓</span></button><div class="byline"><span class="tiny-sun">✺</span> Built with curiosity. Best explored slowly.</div></section>
+<div class="cast" aria-label="Workshop companions"><button class="maker-layer" id="maker" aria-label="Say hello to Kerem"><img src="assets/maker-v2.webp" alt="A golden-haired voxel maker relaxing with a crown mug"><span class="steam" aria-hidden="true"><i></i><i></i><i></i></span></button><button class="cat-layer" id="cat" aria-label="Pet the sleeping ginger cat"><img src="assets/cat-v2.webp" alt="A sleeping ginger voxel cat"><span class="sleep" aria-hidden="true"><i>z</i><i>z</i><i>Z</i></span><span class="heart" aria-hidden="true">♡</span></button><div class="scene-caption" aria-hidden="true"><span></span> The studio cat.<small>Head of doing absolutely nothing.</small></div></div>
+<div class="scene-note"><span>01 — THE GOLDEN HOUR WORKSHOP</span><span>Somewhere between a sketch and a working prototype.</span></div>
+<section class="collection" id="collection" aria-labelledby="collection-title"><div class="collection-heading"><div><span class="collection-dot"></span><h2 id="collection-title">The collection</h2><span class="count">06 OBJECTS</span></div><span class="collection-hint">Pick something up <span>↗</span></span></div><div id="inventory" class="inventory"></div><div class="collection-footer"><span>PRINT · CODE · EXPERIMENT · PLAY</span><a href="https://keremcan.org" target="_blank" rel="noopener">Have a little idea? Say hello ↗</a></div></section>
 <div id="toast" role="status" aria-live="polite"></div>
 </main>
-<dialog id="drawer" aria-labelledby="drawer-title"><div class="drawer-top"><div><div class="eyebrow">COLLECTED FROM THE WORKBENCH</div><h2 id="drawer-title">Things I've made.</h2></div><button id="close" class="icon-button" aria-label="Close project drawer">✕</button></div><p class="drawer-intro">Useful tools, curious experiments, and room for a little play.</p><div class="project-layout"><nav id="inventory" aria-label="Choose a project"></nav><article id="detail"></article></div><div class="drawer-bottom"><span>IMAGINE → MAKE → SHARE → REPEAT</span><span>Built with curiosity. Take your time.</span></div></dialog>
-<script src="script.js?v=layered2"></script>
-</body></html>
-
+<dialog id="project" aria-labelledby="project-title"><div class="project-bar"><span id="case-number">OBJECT 01 / 06</span><span class="project-bar-center">FROM THE WORKBENCH</span><button id="close" aria-label="Close project">✕</button></div><div class="project-body"><section class="project-preview" id="project-preview" aria-label="Interactive project sketch"></section><article class="project-copy"><div class="eyebrow" id="project-category"></div><h2 id="project-title"></h2><p class="project-line" id="project-line"></p><p id="project-description"></p><ul id="project-features"></ul><div id="project-links"></div></article></div><div class="project-footer"><button id="previous">← Previous object</button><span id="project-position"></span><button id="next">Next object →</button></div></dialog>
+<script src="script.js?v=director3"></script></body></html>
