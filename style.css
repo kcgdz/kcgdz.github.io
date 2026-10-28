@@ -3,3 +3,5 @@
 /* Keep the interactive marker anchored to its object, independent of label width. */
 .spot-label{position:absolute;left:44px;top:0}.spot:nth-child(5) .spot-label,.spot:nth-child(2) .spot-label{left:auto;right:44px}.sleep{left:21%;top:69%}.steam{left:43%;top:44%}
 @media(max-width:700px){.sleep{left:24%;top:65%}.steam{left:43%;top:42%}}
+.room picture{display:block;width:100%;height:100%}.room picture img{width:100%;height:100%;object-fit:cover;object-position:50% 55%;animation:arrive 2s ease-out both}
+@media(max-width:700px){.room picture img{object-position:35% center}.cat-spot{left:18%;top:78%}.sleep{left:16%;top:73%}.steam{display:none}}
