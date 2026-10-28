@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#211910">
+<title>KCG — The Golden Hour Workshop</title>
+<meta name="description" content="Step into Kerem Can's cozy pixel workshop. Explore tools for print, AI, creative work, and a little play.">
+<link rel="icon" href="assets/favicon.png"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="world">
+<div class="room" id="room"><img src="assets/room.webp" alt="Kerem's voxel workshop at sunset: a blond maker with a coffee, his sleeping orange cat, and Istanbul beyond the window." fetchpriority="high"><div class="sunlight"></div><div id="dust" aria-hidden="true"></div><div class="steam" aria-hidden="true">∿<br>∿</div><span class="sleep" aria-hidden="true">z z Z</span></div>
+<div class="vignette"></div>
+<header><a class="brand" href="#" aria-label="KCG Workshop home"><span class="crown">♛</span><span>KCG<span class="brand-sub">THE WORKSHOP</span></span></a><div class="header-right"><span class="local-time">GOLDEN HOUR · ISTANBUL</span><button id="light" class="icon-button" aria-label="Switch to evening light" aria-pressed="false">☀ <span>Sunset</span></button><a href="https://github.com/kcgdz" target="_blank" rel="noopener" class="github">GitHub ↗</a></div></header>
+<section class="intro"><div class="eyebrow"><span></span> A SMALL CORNER OF MY WORLD</div><h1>Ideas live here.<br><em>Make yourself at home.</em></h1><p>I'm Kerem. I make things for print, AI,<br>and the occasional “what if?”</p></section>
+<nav class="hotspots" aria-label="Explore the workshop">
+<button class="spot" style="--x:79%;--y:63%" data-project="0"><span class="marker">✦</span><span class="spot-label">On the screen<small>ReliefDrop · 3D tools</small></span></button>
+<button class="spot" style="--x:83%;--y:38%" data-project="1"><span class="marker">☼</span><span class="spot-label">Set the mood<small>LumiControl · Windows</small></span></button>
+<button class="spot" style="--x:15%;--y:55%" data-project="2"><span class="marker">▤</span><span class="spot-label">The print shelf<small>Print & color tools</small></span></button>
+<button class="spot" style="--x:62%;--y:79%" data-project="4"><span class="marker">▧</span><span class="spot-label">Today's reading<small>Byte · AI news</small></span></button>
+<button class="spot" style="--x:90%;--y:88%" data-project="5"><span class="marker">✜</span><span class="spot-label">One more round<small>Taykut Arcade</small></span></button>
+<button class="spot cat-spot" style="--x:27%;--y:76%" id="cat"><span class="marker">♡</span><span class="spot-label">Meet the studio cat<small>Currently: very busy sleeping</small></span></button>
+</nav>
+<footer class="hud"><div class="hint"><span class="key">✦</span><span>Every object has a story.<small>Choose a glowing point to explore.</small></span></div><button id="open-projects" class="primary">Open the project drawer <span>6</span> ↗</button><a href="https://keremcan.org" target="_blank" rel="noopener" class="contact">Say hello ↗</a></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+</main>
+<dialog id="drawer" aria-labelledby="drawer-title"><div class="drawer-top"><div><div class="eyebrow">COLLECTED FROM THE WORKBENCH</div><h2 id="drawer-title">Things I've made.</h2></div><button id="close" class="icon-button" aria-label="Close project drawer">✕</button></div><p class="drawer-intro">Useful tools, curious experiments, and room for a little play.</p><div class="project-layout"><nav id="inventory" aria-label="Choose a project"></nav><article id="detail"></article></div><div class="drawer-bottom"><span>IMAGINE → MAKE → SHARE → REPEAT</span><span>Built with curiosity. Take your time.</span></div></dialog>
+<script src="script.js"></script>
+</body></html>
